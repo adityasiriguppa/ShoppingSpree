@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.shoppingspree.shoppingspree.MainActivity">
+
+    <Button
+        android:id="@+id/form_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:layout_marginTop="8dp"
+        android:onClick="onClickForm"
+        android:text="Form" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/flipkart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:layout_marginTop="16dp"
+                android:onClick="onClickFlipkart"
+                android:text="Flipkart" />
+
+            <Button
+                android:id="@+id/snapdeal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:onClick="onClickSnapdeal"
+                android:text="Snapdeal" />
+
+            <Button
+                android:id="@+id/amazon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:onClick="onClickAmazon"
+                android:text="Amazon" />
+
+            <Button
+                android:id="@+id/tatacliq"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:onClick="onClickTatacliq"
+                android:text="tatacliq" />
+
+            <Button
+                android:id="@+id/paytm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:onClick="onClickPaytm"
+                android:text="PayTM" />
+
+            <Button
+                android:id="@+id/mobikwik"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:onClick="onClickMobikwik"
+                android:text="mobikwik" />
+
+            <Button
+                android:id="@+id/freecharge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:onClick="onClickFreecharge"
+                android:text="freecharge" />
+
+            <Button
+                android:id="@+id/lenskart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:onClick="onClickLenskart"
+                android:text="lenskart" />
+
+            <Button
+                android:id="@+id/mcd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:onClick="onClickMcd"
+                android:text="Mcdonalds" />
+
+            <Button
+                android:id="@+id/kfc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:onClick="onClickKfc"
+                android:text="kfc" />
+
+            <Button
+                android:id="@+id/mmtHotel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:onClick="onClickMmthotel"
+                android:text="Makemytrip Hotel" />
+
+            <Button
+                android:id="@+id/mmtFlight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:onClick="onClickMmtflight"
+                android:text="makemytrip Flight" />
+
+            <Button
+                android:id="@+id/vistaprint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:onClick="onClickVistaprint"
+                android:text="vistaprint" />
+
+            <Button
+                android:id="@+id/ticketgoose"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:onClick="onClickTicketgoose"
+                android:text="ticketgoose" />
+
+            <Button
+                android:id="@+id/dominos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:onClick="onClickDominos"
+                android:text="Dominos" />
+
+            <Button
+                android:id="@+id/oyo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:onClick="onClickOyo"
+                android:text="oyo" />
+
+            <Button
+                android:id="@+id/faasos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:onClick="onClickFaasos"
+                android:text="faasos" />
+
+            <Button
+                android:id="@+id/jabong"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:onClick="onClickJabong"
+                android:text="jabong" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
