@@ -7,4 +7,6 @@
     <string name="twitter_consumer_key" translatable="false">YOURCONSUMERKEY</string>
     <string name="twitter_consumer_secret" translatable="false">YOURCONSUMERSECRET</string>
     <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
+    <string name="default_notification_channel_id" translatable="false">shoppingspree.android</string>
+    <string name="default_notification_channel_name" translatable="false">ANDROID</string>
 </resources>

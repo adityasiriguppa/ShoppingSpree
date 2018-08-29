@@ -19,7 +19,15 @@
           "client_type": 1,
           "android_info": {
             "package_name": "com.shoppingspree.shoppingspree",
-            "certificate_hash": "60B43DE2BF2B05354D6C3D5B8B793C6DFC7DA16F"
+            "certificate_hash": "60b43de2bf2b05354d6c3d5b8b793c6dfc7da16f"
+          }
+        },
+        {
+          "client_id": "379904599228-cjk95bs9ht4i151me20r6fqop1m9f04l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shoppingspree.shoppingspree",
+            "certificate_hash": "401718829d268c336de27e986cc410fab942192b"
           }
         },
         {
@@ -48,7 +56,8 @@
         "ads_service": {
           "status": 2
         }
-      }
+      },
+      "admob_app_id": "ca-app-pub-3745886451373305~2558852074"
     }
   ],
   "configuration_version": "1"
