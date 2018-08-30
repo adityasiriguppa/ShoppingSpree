@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
                         // Log and toast
                         String msg = getString(R.string.msg_token_fmt, token);
                         Log.d(TAG, msg);
-                        Toast.makeText(MainActivity.this, msg, Toast.LENGTH_SHORT).show();
+//                        Toast.makeText(MainActivity.this, msg, Toast.LENGTH_SHORT).show();
                     }
                 });
     }
@@ -79,62 +79,47 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onClickAmazon(View v) {
-        String urlAsString = "http://aoebtech.blogspot.in/2016/12/cashback-for-amazon.html";
+        String urlAsString = "https://linksredirect.com/?pub_id=38266CL34536&source=linkkit&url=https%3A%2F%2Fwww.amazon.in%2F";
         openWebPage(urlAsString);
     }
 
     public void onClickPaytm(View v) {
-        String urlAsString = "http://tracking.payoom.com/aff_c?offer_id=193&aff_id=17186";
+        String urlAsString = "https://linksredirect.com/?pub_id=38266CL34536&source=linkkit&url=https%3A%2F%2Fpaytm.com";
         openWebPage(urlAsString);
     }
 
     public void onClickMobikwik(View v) {
-        String urlAsString = "http://tracking.payoom.com/aff_c?offer_id=269&aff_id=17186";
+        String urlAsString = "https://linksredirect.com/?pub_id=38266CL34536&source=linkkit&url=https%3A%2F%2Fwww.mobikwik.com%2F";
         openWebPage(urlAsString);
     }
 
-    public void onClickFreecharge(View v) {
-        String urlAsString = "http://tracking.payoom.com/aff_c?offer_id=562&aff_id=17186";
+    public void onClickPaytmMall(View v) {
+        String urlAsString = "https://linksredirect.com/?pub_id=38266CL34536&source=linkkit&url=https%3A%2F%2Fpaytmmall.com";
         openWebPage(urlAsString);
     }
 
     public void onClickLenskart(View v) {
-        String urlAsString = "http://tracking.payoom.com/aff_c?offer_id=32&aff_id=17186";
+        String urlAsString = "https://linksredirect.com/?pub_id=38266CL34536&source=linkkit&url=https%3A%2F%2Fwww.lenskart.com%2Ftry-at-home%2F";
         openWebPage(urlAsString);
     }
 
     public void onClickMcd(View v) {
-        String urlAsString = "http://tracking.payoom.com/aff_c?offer_id=512&aff_id=17186";
+        String urlAsString = "https://linksredirect.com/?pub_id=38266CL34536&source=linkkit&url=https%3A%2F%2Fwww.mcdelivery.co.in%2F";
         openWebPage(urlAsString);
     }
 
     public void onClickKfc(View v) {
-        String urlAsString = "http://tracking.payoom.com/aff_c?offer_id=466&aff_id=17186";
-        openWebPage(urlAsString);
-    }
-
-    public void onClickMmthotel(View v) {
-        String urlAsString = "http://tracking.payoom.com/aff_c?offer_id=677&aff_id=17186";
+        String urlAsString = "https://linksredirect.com/?pub_id=38266CL34536&source=linkkit&url=https%3A%2F%2Fonline.kfc.co.in%2Foffer%2Flisting";
         openWebPage(urlAsString);
     }
 
     public void onClickMmtflight(View v) {
-        String urlAsString = "http://tracking.payoom.com/aff_c?offer_id=906&aff_id=17186";
-        openWebPage(urlAsString);
-    }
-
-    public void onClickVistaprint(View v) {
-        String urlAsString = "http://tracking.payoom.com/aff_c?offer_id=124&aff_id=17186";
-        openWebPage(urlAsString);
-    }
-
-    public void onClickTicketgoose(View v) {
-        String urlAsString = "http://tracking.payoom.com/aff_c?offer_id=146&aff_id=17186";
+        String urlAsString = "https://linksredirect.com/?pub_id=38266CL34536&source=linkkit&url=https%3A%2F%2Fwww.makemytrip.com%2Fflights";
         openWebPage(urlAsString);
     }
 
     public void onClickDominos(View v) {
-        String urlAsString = "http://tracking.payoom.com/aff_c?offer_id=217&aff_id=17186";
+        String urlAsString = "https://linksredirect.com/?pub_id=38266CL34536&source=linkkit&url=https%3A%2F%2Fpizzaonline.dominos.co.in%2F";
         openWebPage(urlAsString);
     }
 
@@ -144,17 +129,17 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onClickFaasos(View v) {
-        String urlAsString = "http://tracking.payoom.com/aff_c?offer_id=987&aff_id=17186";
+        String urlAsString = "https://linksredirect.com/?pub_id=38266CL34536&source=linkkit&url=https%3A%2F%2Forder.faasos.io%2F";
         openWebPage(urlAsString);
     }
 
     public void onClickJabong(View v) {
-        String urlAsString = "http://tracking.payoom.com/aff_c?offer_id=62&aff_id=17186";
+        String urlAsString = "https://linksredirect.com/?pub_id=38266CL34536&source=linkkit&url=https%3A%2F%2Fwww.jabong.com%2F";
         openWebPage(urlAsString);
     }
 
     public void onClickTatacliq(View v) {
-        String urlAsString = "http://tracking.payoom.com/aff_c?offer_id=1178&aff_id=17186";
+        String urlAsString = "https://linksredirect.com/?pub_id=38266CL34536&source=linkkit&url=https%3A%2F%2Fwww.tatacliq.com";
         openWebPage(urlAsString);
     }
     private void openWebPage(String url) {
